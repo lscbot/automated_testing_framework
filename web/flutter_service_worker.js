@@ -4,15 +4,15 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "version.json": "4b6db237b3514a88107a422469adfb0f",
-"index.html": "9c72797cd7c47fb15020bb2c7ea2f843",
-"/": "9c72797cd7c47fb15020bb2c7ea2f843",
-"main.dart.js": "b26f9e86e8534b814c5fc45972f93267",
+"index.html": "f14aa7596a1271162ed39c0e3b910564",
+"/": "f14aa7596a1271162ed39c0e3b910564",
+"main.dart.js": "74701e44872a6068f1a1ae080a1f1650",
 "favicon.png": "7d2009652f165b0bc9d9e23452621c35",
 "icons/Icon-192.png": "079d22db7d65e763c68d7199c2bd6b08",
 "icons/Icon-512.png": "f0de392acd8910e2196e38a327bbb747",
 "manifest.json": "15f73b7e8a8209c2206210b3ac8dea1b",
-"assets/AssetManifest.json": "68c85d7714e3b6e58070b7d2aa8853e7",
-"assets/NOTICES": "047e077f44907a0360f316eec9f8ca8c",
+"assets/AssetManifest.json": "8e5364ca3d23eef2c8bff491a038a0b4",
+"assets/NOTICES": "0a82c4367d4c452a392c53561d08878b",
 "assets/assets-src/MaterialIcons-Regular.ttf": "a37b0c01c0baf1888ca812cc0508f6e2",
 "assets/FontManifest.json": "3a1c01ebd9adb7aecf384a895a3cbb43",
 "assets/packages/automated_testing_framework_example/assets/tests/dropdowns.json": "f1f2f78f6bbb729048728e05abca6d41",
@@ -21,13 +21,14 @@ const RESOURCES = {
 "assets/packages/automated_testing_framework_example/assets/tests/icons_gesture.json": "655cf20202457e9a9b8692f05334fbc8",
 "assets/packages/automated_testing_framework_example/assets/tests/issue_5.json": "21c374a01729bf635c57bc9effc9d37b",
 "assets/packages/automated_testing_framework_example/assets/tests/double_tap.json": "35a920944da4cf2e2154bf1c138c2e34",
+"assets/packages/automated_testing_framework_example/assets/tests/slidables.json": "0e6ecffce2e4fe788c9f7a00e1a7d4e7",
 "assets/packages/automated_testing_framework_example/assets/tests/screenshot.json": "5a070f35d91e2c1cde99395809a1d876",
 "assets/packages/automated_testing_framework_example/assets/tests/variables.json": "7d554f244b740f375961fb0c9f80b393",
 "assets/packages/automated_testing_framework_example/assets/tests/failure.json": "8cefd140b688b564169ed2d304a52ce8",
 "assets/packages/automated_testing_framework_example/assets/tests/interpolated_variables.json": "2491e0da34265345c86a6fe89a089894",
-"assets/packages/automated_testing_framework_example/assets/tests/buttons.json": "d35cccfbd9c0c4547e34441f6038ac5c",
+"assets/packages/automated_testing_framework_example/assets/tests/buttons.json": "0980eeed758c9091b9fe476bbe3aae34",
 "assets/packages/automated_testing_framework_example/assets/tests/stacked_scrolling.json": "a98582489811cc6fc6a56cfcd5835699",
-"assets/packages/automated_testing_framework_example/assets/all_tests.json": "2d2c55430cb923f834f1683ae76deaf4",
+"assets/packages/automated_testing_framework_example/assets/all_tests.json": "d96477df2a4212aae02c91666ae74bd8",
 "assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac"
 };
 
