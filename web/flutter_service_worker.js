@@ -4,15 +4,15 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "version.json": "4b6db237b3514a88107a422469adfb0f",
-"index.html": "f14aa7596a1271162ed39c0e3b910564",
-"/": "f14aa7596a1271162ed39c0e3b910564",
-"main.dart.js": "74701e44872a6068f1a1ae080a1f1650",
+"index.html": "1901f50a22c0ce783c2f26856df111ba",
+"/": "1901f50a22c0ce783c2f26856df111ba",
+"main.dart.js": "688feee55140062d278bc8b620acda5b",
 "favicon.png": "7d2009652f165b0bc9d9e23452621c35",
 "icons/Icon-192.png": "079d22db7d65e763c68d7199c2bd6b08",
 "icons/Icon-512.png": "f0de392acd8910e2196e38a327bbb747",
 "manifest.json": "15f73b7e8a8209c2206210b3ac8dea1b",
-"assets/AssetManifest.json": "8e5364ca3d23eef2c8bff491a038a0b4",
-"assets/NOTICES": "0a82c4367d4c452a392c53561d08878b",
+"assets/AssetManifest.json": "b26fbd081daa3f91864767849afe2ac4",
+"assets/NOTICES": "dfe2391f417434a73756f4fb6521e5e3",
 "assets/assets-src/MaterialIcons-Regular.ttf": "a37b0c01c0baf1888ca812cc0508f6e2",
 "assets/FontManifest.json": "3a1c01ebd9adb7aecf384a895a3cbb43",
 "assets/packages/automated_testing_framework_example/assets/tests/dropdowns.json": "f1f2f78f6bbb729048728e05abca6d41",
@@ -27,9 +27,10 @@ const RESOURCES = {
 "assets/packages/automated_testing_framework_example/assets/tests/failure.json": "8cefd140b688b564169ed2d304a52ce8",
 "assets/packages/automated_testing_framework_example/assets/tests/interpolated_variables.json": "2491e0da34265345c86a6fe89a089894",
 "assets/packages/automated_testing_framework_example/assets/tests/buttons.json": "0980eeed758c9091b9fe476bbe3aae34",
+"assets/packages/automated_testing_framework_example/assets/tests/accessibility.json": "c98acf550ea22677d4adfa3016b120f8",
 "assets/packages/automated_testing_framework_example/assets/tests/stacked_scrolling.json": "a98582489811cc6fc6a56cfcd5835699",
-"assets/packages/automated_testing_framework_example/assets/all_tests.json": "d96477df2a4212aae02c91666ae74bd8",
-"assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac"
+"assets/packages/automated_testing_framework_example/assets/all_tests.json": "a7f872805bad1d3e33860470000d69e3",
+"assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1"
 };
 
 // The application shell files that are downloaded before a service worker can
@@ -47,7 +48,7 @@ self.addEventListener("install", (event) => {
   return event.waitUntil(
     caches.open(TEMP).then((cache) => {
       return cache.addAll(
-        CORE.map((value) => new Request(value + '?revision=' + RESOURCES[value], {'cache': 'reload'})));
+        CORE.map((value) => new Request(value, {'cache': 'reload'})));
     })
   );
 });
