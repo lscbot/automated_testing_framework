@@ -4,9 +4,9 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "version.json": "4b6db237b3514a88107a422469adfb0f",
-"index.html": "1901f50a22c0ce783c2f26856df111ba",
-"/": "1901f50a22c0ce783c2f26856df111ba",
-"main.dart.js": "688feee55140062d278bc8b620acda5b",
+"index.html": "d42f8329fd32e41632fbccbe8282a70d",
+"/": "d42f8329fd32e41632fbccbe8282a70d",
+"main.dart.js": "0d2365b52c8545e97516d95da0d75d79",
 "favicon.png": "7d2009652f165b0bc9d9e23452621c35",
 "icons/Icon-192.png": "079d22db7d65e763c68d7199c2bd6b08",
 "icons/Icon-512.png": "f0de392acd8910e2196e38a327bbb747",
@@ -23,7 +23,7 @@ const RESOURCES = {
 "assets/packages/automated_testing_framework_example/assets/tests/double_tap.json": "35a920944da4cf2e2154bf1c138c2e34",
 "assets/packages/automated_testing_framework_example/assets/tests/slidables.json": "0e6ecffce2e4fe788c9f7a00e1a7d4e7",
 "assets/packages/automated_testing_framework_example/assets/tests/screenshot.json": "5a070f35d91e2c1cde99395809a1d876",
-"assets/packages/automated_testing_framework_example/assets/tests/variables.json": "7d554f244b740f375961fb0c9f80b393",
+"assets/packages/automated_testing_framework_example/assets/tests/variables.json": "76229a7fbac5b3c9112db7be4192b142",
 "assets/packages/automated_testing_framework_example/assets/tests/failure.json": "8cefd140b688b564169ed2d304a52ce8",
 "assets/packages/automated_testing_framework_example/assets/tests/interpolated_variables.json": "2491e0da34265345c86a6fe89a089894",
 "assets/packages/automated_testing_framework_example/assets/tests/buttons.json": "0980eeed758c9091b9fe476bbe3aae34",
